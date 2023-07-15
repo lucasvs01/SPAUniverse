@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif; 
+
+    --background-home: url(./assets/mountains-universe-1.png);
+    --background-universe: url(./assets/mountains-universe02.png);
+    --background-exploration: url(./assets/mountains-universe-3.png);
+    --background-404: url(https://img.freepik.com/vetores-gratis/erro-404-com-sinal-de-cone_24908-77776.jpg?w=740&t=st=1689379586~exp=1689380186~hmac=01d592f589ba166cfa18f2f0eb01946ebb809d2c243a5e7bfd405c7757949141)
+}
+
+body {
+    background-image: var(--background-home);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+
+}
+
+
+
+#menu{
+    margin: 4rem auto 0 7.2rem;
+    display: flex;
+    gap: 3.2rem;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: #C4C4CC;
+    font-size: 2.167rem;
+    line-height: 2.17rem;
+
+}
+
+#menu .nav-button-style-change{
+    color: white;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+
+h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: bold;
+    line-height: 125%;
+
+    margin: 21.2rem auto auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.button-home {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+
+    padding: 1.2rem 3.2rem;
+    margin: 2.4rem auto auto;
+    max-width: 20rem;
+
+    display: grid;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.button-home:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #02799D;
+
+    transition: 550ms 100ms;
+
+}
+
+.h1-universe-exploration{
+    margin: 11.3rem auto 0 10.2rem;
+    text-align: left;
+}
+
+p {
+    color: #E1E1E6;
+
+    margin: 1.6rem auto 0 10.2rem;
+    max-width: 64.8rem;
+    font-size: 1.8rem;
+    line-height: 160%;
+}
+
